@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+    .square {
+        width:10px;
+        height: 10px;
+        background-color: #FFFFFF
+    }
+    body{
+        background-color:#000000;
+    }
+</style>
+</head>
+<body>
+ 
+    
+    <form >
+        <input type="text" id="number"><br> 
+        <input type="submit" value="生成">
+    </form>
+    <div id="squre" class="squre"></div>
+    <script>
+        function addSquare(){
+            var number=document.getElementById("number").value;
+          
+            for(var i=0;i<number;i++){
+                var squares=document.createElement("div");
+                aquares.classList.add("squares");
+                square.appendChild(squares);
+                
+            }
+            
+        }
+    </script>
+     
+</body>
+</html>
+
+尽力从头开始学知识点了，但是感觉可能语句之间一些深层次的联系和相互作用没法学到，所以没法实现
